@@ -224,7 +224,7 @@ const fields = {
 const updatedItem = await webflow.updateItem({
   collectionId: "[COLLECTION ID]",
   itemId: "[ITEM ID]",
-  fields,
+  ...fields,
 });
 ```
 
